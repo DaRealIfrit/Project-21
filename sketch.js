@@ -47,6 +47,10 @@ function draw() {
     fill("white");
     text("Damage: " + damage, 100, 45);
 
+    stroke("purple");
+    fill("purple");
+    text("Press 'R' to Restart", 740, 200);
+
   if(damage > 10){
     wall.shapeColor = color(255, 0, 0);
   }
